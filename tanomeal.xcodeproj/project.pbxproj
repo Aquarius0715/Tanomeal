@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A736D2F28A0E636008CA2A1 /* tanomealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D2E28A0E636008CA2A1 /* tanomealApp.swift */; };
-		3A736D3128A0E636008CA2A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D3028A0E636008CA2A1 /* ContentView.swift */; };
+		3A736D2F28A0E636008CA2A1 /* TanomealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D2E28A0E636008CA2A1 /* TanomealApp.swift */; };
 		3A736D3328A0E636008CA2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A736D3228A0E636008CA2A1 /* Assets.xcassets */; };
 		3A736D3628A0E636008CA2A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A736D3528A0E636008CA2A1 /* Preview Assets.xcassets */; };
-		3A736D3828A0E636008CA2A1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D3728A0E636008CA2A1 /* Persistence.swift */; };
 		3A736D3B28A0E636008CA2A1 /* tanomeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D3928A0E636008CA2A1 /* tanomeal.xcdatamodeld */; };
 		3A736D4528A0E637008CA2A1 /* tanomealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D4428A0E637008CA2A1 /* tanomealTests.swift */; };
 		3A736D4F28A0E637008CA2A1 /* tanomealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D4E28A0E637008CA2A1 /* tanomealUITests.swift */; };
 		3A736D5128A0E637008CA2A1 /* tanomealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D5028A0E637008CA2A1 /* tanomealUITestsLaunchTests.swift */; };
+		3A736D6428A0E8D8008CA2A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A736D6328A0E8D8008CA2A1 /* GoogleService-Info.plist */; };
+		3A736D6528A0E8D8008CA2A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A736D6328A0E8D8008CA2A1 /* GoogleService-Info.plist */; };
+		3A736D6628A0E8D8008CA2A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A736D6328A0E8D8008CA2A1 /* GoogleService-Info.plist */; };
+		3A736D7528A0E9DF008CA2A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736D7428A0E9DF008CA2A1 /* FirebaseAuth */; };
+		3A736D7B28A0E9DF008CA2A1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736D7A28A0E9DF008CA2A1 /* FirebaseDatabase */; };
+		3A736D7D28A0E9DF008CA2A1 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736D7C28A0E9DF008CA2A1 /* FirebaseDatabaseSwift */; };
+		3A736D9F28A126CB008CA2A1 /* Resister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736D9E28A126CB008CA2A1 /* Resister.swift */; };
+		3A736DA328A130C1008CA2A1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DA228A130C1008CA2A1 /* Login.swift */; };
+		3A736DA728A13EC1008CA2A1 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DA628A13EC1008CA2A1 /* Authenticate.swift */; };
+		3A736DA828A13EC1008CA2A1 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DA628A13EC1008CA2A1 /* Authenticate.swift */; };
+		3A736DA928A13EC1008CA2A1 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DA628A13EC1008CA2A1 /* Authenticate.swift */; };
+		3A736DAC28A14A3F008CA2A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DAB28A14A3F008CA2A1 /* FirebaseAuth */; };
+		3A736DAE28A14A3F008CA2A1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DAD28A14A3F008CA2A1 /* FirebaseDatabase */; };
+		3A736DB028A14A3F008CA2A1 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DAF28A14A3F008CA2A1 /* FirebaseDatabaseSwift */; };
+		3A736DB328A14C3F008CA2A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DB228A14C3F008CA2A1 /* FirebaseAuth */; };
+		3A736DB528A14C3F008CA2A1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DB428A14C3F008CA2A1 /* FirebaseAuthCombine-Community */; };
+		3A736DB728A14C3F008CA2A1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DB628A14C3F008CA2A1 /* FirebaseDatabase */; };
+		3A736DB928A14C3F008CA2A1 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DB828A14C3F008CA2A1 /* FirebaseDatabaseSwift */; };
+		3A736DBC28A29EAF008CA2A1 /* TanomealTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DBB28A29EAF008CA2A1 /* TanomealTop.swift */; };
+		3A736DBD28A29EAF008CA2A1 /* TanomealTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DBB28A29EAF008CA2A1 /* TanomealTop.swift */; };
+		3A736DBE28A29EAF008CA2A1 /* TanomealTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DBB28A29EAF008CA2A1 /* TanomealTop.swift */; };
+		3A736DC028A338BA008CA2A1 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DBF28A338BA008CA2A1 /* Logout.swift */; };
+		3A736DC128A338BA008CA2A1 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DBF28A338BA008CA2A1 /* Logout.swift */; };
+		3A736DC228A338BA008CA2A1 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DBF28A338BA008CA2A1 /* Logout.swift */; };
+		3A736DCC28A48EB8008CA2A1 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DCB28A48EB8008CA2A1 /* ResetPassword.swift */; };
+		3A736DCD28A48EB8008CA2A1 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DCB28A48EB8008CA2A1 /* ResetPassword.swift */; };
+		3A736DCE28A48EB8008CA2A1 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DCB28A48EB8008CA2A1 /* ResetPassword.swift */; };
+		3A736DD128A61F88008CA2A1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3A736DD028A61F88008CA2A1 /* FirebaseFirestore */; };
+		3A736DD328A750FB008CA2A1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DD228A750FB008CA2A1 /* DatabaseManager.swift */; };
+		3A736DD428A750FB008CA2A1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DD228A750FB008CA2A1 /* DatabaseManager.swift */; };
+		3A736DD528A750FB008CA2A1 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A736DD228A750FB008CA2A1 /* DatabaseManager.swift */; };
+		3AB3A09228AFE75400AF5AA0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3A09128AFE75400AF5AA0 /* Settings.swift */; };
+		3AB3A09428AFEA8C00AF5AA0 /* TanomealUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3A09328AFEA8C00AF5AA0 /* TanomealUtilities.swift */; };
+		3AB3A09628B7B12A00AF5AA0 /* SelectShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3A09528B7B12A00AF5AA0 /* SelectShop.swift */; };
+		3AB3A09828BA464600AF5AA0 /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3A09728BA464600AF5AA0 /* OrderPage.swift */; };
+		3AB3A09A28BB3B4C00AF5AA0 /* PurchasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3A09928BB3B4C00AF5AA0 /* PurchasePage.swift */; };
+		3AB3A0A428BCF79600AF5AA0 /* ConfirmOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3A0A328BCF79600AF5AA0 /* ConfirmOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,17 +72,30 @@
 
 /* Begin PBXFileReference section */
 		3A736D2B28A0E636008CA2A1 /* tanomeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tanomeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A736D2E28A0E636008CA2A1 /* tanomealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanomealApp.swift; sourceTree = "<group>"; };
-		3A736D3028A0E636008CA2A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A736D2E28A0E636008CA2A1 /* TanomealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanomealApp.swift; sourceTree = "<group>"; };
 		3A736D3228A0E636008CA2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A736D3528A0E636008CA2A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A736D3728A0E636008CA2A1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3A736D3A28A0E636008CA2A1 /* tanomeal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tanomeal.xcdatamodel; sourceTree = "<group>"; };
 		3A736D4028A0E637008CA2A1 /* tanomealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanomealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A736D4428A0E637008CA2A1 /* tanomealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanomealTests.swift; sourceTree = "<group>"; };
 		3A736D4A28A0E637008CA2A1 /* tanomealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanomealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A736D4E28A0E637008CA2A1 /* tanomealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanomealUITests.swift; sourceTree = "<group>"; };
 		3A736D5028A0E637008CA2A1 /* tanomealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanomealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A736D6328A0E8D8008CA2A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A736D9E28A126CB008CA2A1 /* Resister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resister.swift; sourceTree = "<group>"; };
+		3A736DA228A130C1008CA2A1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3A736DA628A13EC1008CA2A1 /* Authenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate.swift; sourceTree = "<group>"; };
+		3A736DBA28A1F55D008CA2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A736DBB28A29EAF008CA2A1 /* TanomealTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanomealTop.swift; sourceTree = "<group>"; };
+		3A736DBF28A338BA008CA2A1 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		3A736DCB28A48EB8008CA2A1 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		3A736DD228A750FB008CA2A1 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		3AB3A09128AFE75400AF5AA0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3AB3A09328AFEA8C00AF5AA0 /* TanomealUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanomealUtilities.swift; sourceTree = "<group>"; };
+		3AB3A09528B7B12A00AF5AA0 /* SelectShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectShop.swift; sourceTree = "<group>"; };
+		3AB3A09728BA464600AF5AA0 /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
+		3AB3A09928BB3B4C00AF5AA0 /* PurchasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePage.swift; sourceTree = "<group>"; };
+		3AB3A0A328BCF79600AF5AA0 /* ConfirmOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +103,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A736DB028A14A3F008CA2A1 /* FirebaseDatabaseSwift in Frameworks */,
+				3A736D7B28A0E9DF008CA2A1 /* FirebaseDatabase in Frameworks */,
+				3A736DB328A14C3F008CA2A1 /* FirebaseAuth in Frameworks */,
+				3A736DAE28A14A3F008CA2A1 /* FirebaseDatabase in Frameworks */,
+				3A736D7528A0E9DF008CA2A1 /* FirebaseAuth in Frameworks */,
+				3A736DB928A14C3F008CA2A1 /* FirebaseDatabaseSwift in Frameworks */,
+				3A736D7D28A0E9DF008CA2A1 /* FirebaseDatabaseSwift in Frameworks */,
+				3A736DAC28A14A3F008CA2A1 /* FirebaseAuth in Frameworks */,
+				3A736DB728A14C3F008CA2A1 /* FirebaseDatabase in Frameworks */,
+				3A736DD128A61F88008CA2A1 /* FirebaseFirestore in Frameworks */,
+				3A736DB528A14C3F008CA2A1 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,11 +157,24 @@
 		3A736D2D28A0E636008CA2A1 /* tanomeal */ = {
 			isa = PBXGroup;
 			children = (
-				3A736D2E28A0E636008CA2A1 /* tanomealApp.swift */,
-				3A736D3028A0E636008CA2A1 /* ContentView.swift */,
-				3A736D3228A0E636008CA2A1 /* Assets.xcassets */,
-				3A736D3728A0E636008CA2A1 /* Persistence.swift */,
+				3A736DBA28A1F55D008CA2A1 /* Info.plist */,
+				3A736D6328A0E8D8008CA2A1 /* GoogleService-Info.plist */,
+				3A736DA628A13EC1008CA2A1 /* Authenticate.swift */,
+				3A736DD228A750FB008CA2A1 /* DatabaseManager.swift */,
+				3A736D2E28A0E636008CA2A1 /* TanomealApp.swift */,
+				3AB3A09328AFEA8C00AF5AA0 /* TanomealUtilities.swift */,
+				3A736D9E28A126CB008CA2A1 /* Resister.swift */,
+				3A736DA228A130C1008CA2A1 /* Login.swift */,
+				3A736DBB28A29EAF008CA2A1 /* TanomealTop.swift */,
+				3A736DBF28A338BA008CA2A1 /* Logout.swift */,
+				3A736DCB28A48EB8008CA2A1 /* ResetPassword.swift */,
+				3AB3A09128AFE75400AF5AA0 /* Settings.swift */,
+				3AB3A09528B7B12A00AF5AA0 /* SelectShop.swift */,
+				3AB3A09728BA464600AF5AA0 /* OrderPage.swift */,
+				3AB3A09928BB3B4C00AF5AA0 /* PurchasePage.swift */,
+				3AB3A0A328BCF79600AF5AA0 /* ConfirmOrder.swift */,
 				3A736D3928A0E636008CA2A1 /* tanomeal.xcdatamodeld */,
+				3A736D3228A0E636008CA2A1 /* Assets.xcassets */,
 				3A736D3428A0E636008CA2A1 /* Preview Content */,
 			);
 			path = tanomeal;
@@ -149,6 +221,19 @@
 			dependencies = (
 			);
 			name = tanomeal;
+			packageProductDependencies = (
+				3A736D7428A0E9DF008CA2A1 /* FirebaseAuth */,
+				3A736D7A28A0E9DF008CA2A1 /* FirebaseDatabase */,
+				3A736D7C28A0E9DF008CA2A1 /* FirebaseDatabaseSwift */,
+				3A736DAB28A14A3F008CA2A1 /* FirebaseAuth */,
+				3A736DAD28A14A3F008CA2A1 /* FirebaseDatabase */,
+				3A736DAF28A14A3F008CA2A1 /* FirebaseDatabaseSwift */,
+				3A736DB228A14C3F008CA2A1 /* FirebaseAuth */,
+				3A736DB428A14C3F008CA2A1 /* FirebaseAuthCombine-Community */,
+				3A736DB628A14C3F008CA2A1 /* FirebaseDatabase */,
+				3A736DB828A14C3F008CA2A1 /* FirebaseDatabaseSwift */,
+				3A736DD028A61F88008CA2A1 /* FirebaseFirestore */,
+			);
 			productName = tanomeal;
 			productReference = 3A736D2B28A0E636008CA2A1 /* tanomeal.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +306,12 @@
 				Base,
 			);
 			mainGroup = 3A736D2228A0E636008CA2A1;
+			packageReferences = (
+				3A736D6728A0E9DF008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3A736DAA28A14A3E008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3A736DB128A14C3F008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3A736DCF28A61F88008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3A736D2C28A0E636008CA2A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +330,7 @@
 			files = (
 				3A736D3628A0E636008CA2A1 /* Preview Assets.xcassets in Resources */,
 				3A736D3328A0E636008CA2A1 /* Assets.xcassets in Resources */,
+				3A736D6428A0E8D8008CA2A1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A736D6528A0E8D8008CA2A1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A736D6628A0E8D8008CA2A1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +357,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A736D3828A0E636008CA2A1 /* Persistence.swift in Sources */,
-				3A736D3128A0E636008CA2A1 /* ContentView.swift in Sources */,
+				3A736DBC28A29EAF008CA2A1 /* TanomealTop.swift in Sources */,
+				3A736D9F28A126CB008CA2A1 /* Resister.swift in Sources */,
+				3A736DA328A130C1008CA2A1 /* Login.swift in Sources */,
 				3A736D3B28A0E636008CA2A1 /* tanomeal.xcdatamodeld in Sources */,
-				3A736D2F28A0E636008CA2A1 /* tanomealApp.swift in Sources */,
+				3AB3A09228AFE75400AF5AA0 /* Settings.swift in Sources */,
+				3AB3A09A28BB3B4C00AF5AA0 /* PurchasePage.swift in Sources */,
+				3AB3A0A428BCF79600AF5AA0 /* ConfirmOrder.swift in Sources */,
+				3A736DCC28A48EB8008CA2A1 /* ResetPassword.swift in Sources */,
+				3AB3A09428AFEA8C00AF5AA0 /* TanomealUtilities.swift in Sources */,
+				3A736DA728A13EC1008CA2A1 /* Authenticate.swift in Sources */,
+				3A736D2F28A0E636008CA2A1 /* TanomealApp.swift in Sources */,
+				3AB3A09628B7B12A00AF5AA0 /* SelectShop.swift in Sources */,
+				3AB3A09828BA464600AF5AA0 /* OrderPage.swift in Sources */,
+				3A736DC028A338BA008CA2A1 /* Logout.swift in Sources */,
+				3A736DD328A750FB008CA2A1 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +379,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A736DBD28A29EAF008CA2A1 /* TanomealTop.swift in Sources */,
+				3A736DC128A338BA008CA2A1 /* Logout.swift in Sources */,
+				3A736DD428A750FB008CA2A1 /* DatabaseManager.swift in Sources */,
+				3A736DCD28A48EB8008CA2A1 /* ResetPassword.swift in Sources */,
+				3A736DA828A13EC1008CA2A1 /* Authenticate.swift in Sources */,
 				3A736D4528A0E637008CA2A1 /* tanomealTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +392,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A736DCE28A48EB8008CA2A1 /* ResetPassword.swift in Sources */,
+				3A736DBE28A29EAF008CA2A1 /* TanomealTop.swift in Sources */,
 				3A736D5128A0E637008CA2A1 /* tanomealUITestsLaunchTests.swift in Sources */,
 				3A736D4F28A0E637008CA2A1 /* tanomealUITests.swift in Sources */,
+				3A736DC228A338BA008CA2A1 /* Logout.swift in Sources */,
+				3A736DA928A13EC1008CA2A1 /* Authenticate.swift in Sources */,
+				3A736DD528A750FB008CA2A1 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +472,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -410,6 +526,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -422,15 +539,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tanomeal/Preview Content\"";
 				DEVELOPMENT_TEAM = WS3BW9P9Y5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tanomeal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +557,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanomeals.tanomeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -451,15 +571,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tanomeal/Preview Content\"";
 				DEVELOPMENT_TEAM = WS3BW9P9Y5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tanomeal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +589,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanomeals.tanomeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -591,6 +714,99 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A736D6728A0E9DF008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		3A736DAA28A14A3E008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		3A736DB128A14C3F008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3A736DCF28A61F88008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A736D7428A0E9DF008CA2A1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736D6728A0E9DF008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3A736D7A28A0E9DF008CA2A1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736D6728A0E9DF008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3A736D7C28A0E9DF008CA2A1 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736D6728A0E9DF008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3A736DAB28A14A3F008CA2A1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DAA28A14A3E008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3A736DAD28A14A3F008CA2A1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DAA28A14A3E008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3A736DAF28A14A3F008CA2A1 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DAA28A14A3E008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3A736DB228A14C3F008CA2A1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DB128A14C3F008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3A736DB428A14C3F008CA2A1 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DB128A14C3F008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		3A736DB628A14C3F008CA2A1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DB128A14C3F008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3A736DB828A14C3F008CA2A1 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DB128A14C3F008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3A736DD028A61F88008CA2A1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A736DAA28A14A3E008CA2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3A736D3928A0E636008CA2A1 /* tanomeal.xcdatamodeld */ = {
