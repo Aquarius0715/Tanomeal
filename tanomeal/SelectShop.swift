@@ -22,18 +22,24 @@ struct SelectShop: View {
     }
     
     var body: some View {
-        List {
-            ForEach(0 ..< school.stores.count, id: \.self) {index in
-                HStack {
-                    Text(shops[index].name)
-                    NavigationLink(destination: OrderPage(shop: shops[index], school: school, store: school.stores[index], mailAddress: mailAddress)) {
-                        EmptyView()
+        ZStack {
+            Color.yellow
+                .ignoresSafeArea()
+            if (school.stores.count == shops.count) {
+                List {
+                    ForEach(0 ..< school.stores.count, id: \.self) { index in
+                        HStack {
+                            Text(shops[index].name)
+                            NavigationLink(destination: OrderPage(shop: shops[index], school: school, store: school.stores[index], mailAddress: mailAddress)) {
+                            EmptyView()
+                        }
+                        }
                     }
-                    .navigationTitle("店舗一覧")
+                    .contentShape(Rectangle())
                 }
             }
-            .contentShape(Rectangle())
         }
+        .navigationTitle("店舗一覧")
     }
 }
 

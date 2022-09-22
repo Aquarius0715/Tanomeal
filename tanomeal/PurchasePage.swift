@@ -54,6 +54,22 @@ struct PurchasePage: View {
         ZStack {
             Color.yellow.ignoresSafeArea()
             VStack {
+                VStack {
+                    Text("合計金額: \(price)円")
+                        .bold()
+                        .font(.system(size: 24))
+                    Button(action: {
+                        if !data.isEmpty {
+                            DispatchQueue.global().async {
+                                order = Order(mailAddress: mailAddress, grade: 0, sex: "未選択", items: data, orderDate: Date(), acceptDate: Date(), acceptFlag: false)
+                                orderId = DatabaseManager().setOrder(order: order, store: store)
+                            }
+                            goConfirmOrder.toggle()
+                        }
+                    }, label: { EmptyView() })
+                    .buttonStyle(PaymentButtonStyle())
+                    Spacer().frame(height: 10)
+                }
                 List {
                     ForEach(0 ..< orderInfos.count, id: \.self) { index in
                         Text("\(orderInfos[index].name) \(orderInfos[index].count)個")

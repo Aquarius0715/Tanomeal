@@ -34,11 +34,23 @@ struct OrderPage: View {
                 .ignoresSafeArea()
             VStack {
                 Text(" add to cart <- swipe -> remove from cart ")
+                Button(action: {
+                    goPurchasePage.toggle()
+                }) {
+                    HStack {
+                        Text("カート ")
+                        Image(systemName: "cart.fill")
+                        Text(" \(cart.count)個のアイテム")
+                    }
+                }
                 List {
                     let menus = shop.menu
                     ForEach(0 ..< menus.count, id: \.self) { index in
                         if menus[index].enable {
                             HStack {
+                                Image("NoImage")
+                                    .resizable()
+                                    .frame(width: 128, height: 128)
                                 Text("\(menus[index].name) \(menus[index].price)円")
                             }
                             .swipeActions(edge: .trailing) {
@@ -61,17 +73,17 @@ struct OrderPage: View {
                         }
                     }
                 }
-                .navigationTitle(shop.name)
-                .toolbar {
-                    ToolbarItem(placement: .bottomBar){
-                        Button(action: {
-                            goPurchasePage.toggle()
-                        }) {
-                            HStack {
-                                Text("カート ")
-                                Image(systemName: "cart.fill")
-                                Text(" \(cart.count)個のアイテム")
-                            }
+            }
+            .navigationTitle(shop.name)
+            .toolbar {
+                ToolbarItem(placement: .bottomBar){
+                    Button(action: {
+                        goPurchasePage.toggle()
+                    }) {
+                        HStack {
+                            Text("カート ")
+                            Image(systemName: "cart.fill")
+                            Text(" \(cart.count)個のアイテム")
                         }
                     }
                 }
